@@ -1,6 +1,6 @@
 import streamlit as st
 
-from random_password_generator import password_generator
+from backend import password_generator
 
 st.title("Password Generator")
 st.subheader("Generate a strong and secure password easily.")
